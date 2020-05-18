@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#211D44"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="85px"
+        android:layout_height="85px"
+        android:src="@drawable/icon_dealine1"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/txt_tencongviec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Tên Công Việc"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_noidung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Nội dung"
+        android:textColor="#4CAF50"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/txt_tencongviec" />
+
+    <TextView
+        android:id="@+id/txt_ngayhoanthanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Ngày Hoàn Thành"
+        android:textSize="10sp"
+        android:textColor="#FFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/txt_noidung" />
+
+    <TextView
+        android:id="@+id/txt_hengio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Giờ Thông Báo"
+        android:textColor="#ff00"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_ngayhoanthanh"
+        app:layout_constraintTop_toTopOf="@+id/txt_ngayhoanthanh"
+        tools:layout_editor_absoluteX="202dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

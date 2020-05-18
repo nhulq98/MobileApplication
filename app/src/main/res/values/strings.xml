@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quản Lý Công Việc</string>
+    <string name="txt_tieude">Quản Lý Công Việc</string>
+    <string name="edt_tencv">Nhập Tên Công Việc</string>
+    <string name="edt_noidungcv">Nội dung Công Việc</string>
+    <string name="txt_tencv">Nhập Tên Công Việc</string>
+    <string name="edt_ngay">Chọn Ngày</string>
+    <string name="edt_baothuc">Chọn Báo Thức</string>
+    <string name="btn_them">Thêm</string>
+    <string name="btn_sua">Sửa</string>
+</resources>
